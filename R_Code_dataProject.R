@@ -105,6 +105,7 @@ collegeCostMap + scale_fill_continuous(
 )
 
 #Scatter Plot Comparing Debt Per person and Cost of College
+cost_College_2020 <- College_Price_Useful$`2020-21...37`
 perPersonDebt_by_State1 <- perPersonDebt_by_State[-54]
 perPersonDebt_by_State2 <- perPersonDebt_by_State1[-53]
 costsVsDebt <- data.frame(
